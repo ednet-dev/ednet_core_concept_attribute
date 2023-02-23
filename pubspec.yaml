@@ -1,6 +1,6 @@
 name: concept_attribute
 version: 0.0.1
-description: A model with one attribute concepts for test data generation. dartling is a domain model framework for web applications.
+description: A model with one attribute concepts for test data generation. EDNetCore is a domain model framework for web applications.
 
 homepage: http://ondart.me/
 documentation: 
@@ -10,4 +10,4 @@ dependencies:
   ednet_core:
     path: ../../../ednet_cms/packages/ednet_core
   ednet_core_default_app:
-    path: ../ednet_dartling_default_app
+    path: ../ednet_core_default_app
