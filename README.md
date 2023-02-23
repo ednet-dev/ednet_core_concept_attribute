@@ -4,7 +4,7 @@
 
 ## Description 
 
-A [dartling] (https://github.com/dzenanr/dartling) project to generate test 
+A [EDNetCore] (https://github.com/ednet-dev/ednet_core) project to generate test 
 data for models. The project's model consists of many concepts, each with one 
 attribute that is the identifier of the concept. The model does not have 
 relationships. For example, City concept with city identifier attribute. 

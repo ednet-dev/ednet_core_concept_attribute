@@ -29,7 +29,7 @@ Create a New Repo at GitHub
 (without README, since cloning will not be used).
 Repository Name: concept_attribute
 Description: 
-  Concept.Attribute is a Dartling project to create data for generated tests.
+  Concept.Attribute is a EDNetCore project to create data for generated tests.
       
 Next steps:
   cd git/dart/concept_attribute
