@@ -2,7 +2,7 @@ part of concept_attribute;
 
 // lib/gen/concept/repository.dart
 
-class ConceptRepo extends Repo {
+class ConceptRepo extends Repository {
 
   static final conceptDomainCode = "Concept";
   static final conceptAttributeModelCode = "Attribute";

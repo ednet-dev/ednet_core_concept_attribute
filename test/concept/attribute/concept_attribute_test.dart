@@ -2,11 +2,11 @@
 
 import 'package:test/test.dart';
 
-import 'package:dartling/dartling.dart';
+import 'package:ednet_core/ednet_core.dart';
 
 import 'package:concept_attribute/concept_attribute.dart';
 
-testConceptAttribute(Repo repo, String domainCode, String modelCode) {
+testConceptAttribute(Repository repo, String domainCode, String modelCode) {
   var models;
   var session;
   var entries;

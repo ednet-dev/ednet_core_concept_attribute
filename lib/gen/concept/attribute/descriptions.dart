@@ -2,7 +2,7 @@ part of concept_attribute;
 
 // lib/gen/concept/attribute/descriptions.dart
 
-abstract class DescriptionGen extends ConceptEntity<Description> {
+abstract class DescriptionGen extends Entity<Description> {
 
   DescriptionGen(Concept concept) {
     this.concept = concept;

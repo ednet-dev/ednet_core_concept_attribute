@@ -37,7 +37,7 @@ library concept_attribute;
 
 import "dart:convert";
 
-import "package:dartling/dartling.dart";
+import "package:ednet_core/ednet_core.dart";
 
 part "concept/attribute/json/data.dart";
 part "concept/attribute/json/model.dart";

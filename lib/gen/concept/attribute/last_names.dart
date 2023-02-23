@@ -2,7 +2,7 @@ part of concept_attribute;
 
 // lib/gen/concept/attribute/last_names.dart
 
-abstract class LastNameGen extends ConceptEntity<LastName> {
+abstract class LastNameGen extends Entity<LastName> {
 
   LastNameGen(Concept concept) {
     this.concept = concept;

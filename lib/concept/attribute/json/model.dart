@@ -3,11 +3,11 @@ part of concept_attribute;
 // http://www.json.org/
 // http://jsonformatter.curiousconcept.com/
 
-// rename dartling to yourDomainName
+// rename ednet_core to yourDomainName
 // rename Skeleton to YourModelName
 // do not change model or Model
 
-// lib/dartling/skeleton/json/model.dart
+// lib/ednet_core/skeleton/json/model.dart
 
 var conceptAttributeModelJson = r'''
 {

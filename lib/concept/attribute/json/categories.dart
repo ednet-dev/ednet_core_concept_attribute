@@ -10,7 +10,7 @@ String categoriesInJson() {
 {"category" : "Browser", "subcategory" : ["Google Chrome", "Firefox", "Opera", "Safari", "Internet Explorer"]},
 {"category" : "Mobile", "subcategory" : ["Iphone", "Android", "ios", "Blackberry", "Smartphone"]},
 {"category" : "Web", "subcategory" : ["CSS", "Javascript", "HTML5", "JQuery", "web-applications"]},
-{"category" : "Git", "subcategory" : ["Linux", "Github", "Bash", "Repo", "SSH-keys"]},
+{"category" : "Git", "subcategory" : ["Linux", "Github", "Bash", "Repository", "SSH-keys"]},
 {"category" : "CMS", "subcategory" : ["Wordpress", "Joomla", "Drupal", "Blogs", "Themes"]},
 {"category" : "Google", "subcategory" : ["google-api", "google-analytics", "google-app-engine", "google-maps", "android"]}
 ]

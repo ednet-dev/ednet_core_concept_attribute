@@ -180,7 +180,7 @@ String textsInJson() {
 {"text" : "Git Bash- permission denied when trying to remove directory. Is there a sudo-like command for Git bash?"},
 {"text" : "Can the time period before a remote git repository (not git hub) hangs up while awaiting a password be increased?"},
 {"text" : "Pull remote branch into local repo with different name?"},
-{"text" : "How do I give coders selective access to code in my Git Repo?"},
+{"text" : "How do I give coders selective access to code in my Git Repository?"},
 {"text" : "How can I use git to push changes to a production server?"},
 {"text" : "Why after copying git repository to another dir I have modified files?"},
 {"text" : "How to set the default branch in GitHub.com?"},

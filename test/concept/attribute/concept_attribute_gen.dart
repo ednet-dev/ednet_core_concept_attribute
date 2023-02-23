@@ -1,11 +1,11 @@
 // test/concept/attribute/concept_attribute_gen.dart
 
-import 'package:dartling/dartling.dart';
+import 'package:ednet_core/ednet_core.dart';
 
 import 'package:concept_attribute/concept_attribute.dart';
 
 genCode() {
-  var repo = new Repo();
+  var repo = new Repository();
   var conceptDomain = new Domain("Concept");
   Model conceptAttributeModel =
       fromJsonToModel(conceptAttributeModelJson, conceptDomain, "Attribute");

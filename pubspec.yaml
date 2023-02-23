@@ -5,8 +5,9 @@ author: Dzenan Ridjanovic <dzenanr@gmail.com>
 homepage: http://ondart.me/
 documentation: 
 environment:
-  sdk: '>=1.9.3 <2.0.0'
+  sdk: '>=2.18.6 <3.0.0'
 dependencies:
-  browser: any
-  dartling: any
-  dartling_default_app: any
+  ednet_core:
+    path: ../../../ednet_cms/packages/ednet_core
+  dartling_default_app:
+    path: ../ednet_dartling_default_app

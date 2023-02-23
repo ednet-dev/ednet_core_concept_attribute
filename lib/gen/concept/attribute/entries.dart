@@ -3,7 +3,6 @@ part of concept_attribute;
 // lib/gen/concept/attribute/entries.dart
 
 class AttributeEntries extends ModelEntries {
-
   AttributeEntries(Model model) : super(model);
 
   Map<String, Entities> newEntries() {
@@ -31,7 +30,7 @@ class AttributeEntries extends ModelEntries {
   Entities newEntities(String conceptCode) {
     var concept = model.concepts.singleWhereCode(conceptCode);
     if (concept == null) {
-      throw new ConceptError("${conceptCode} concept does not exist.") ;
+      throw new EDNetException("${conceptCode} concept does not exist.");
     }
     if (concept.code == "City") {
       return new Cities(concept);
@@ -57,12 +56,14 @@ class AttributeEntries extends ModelEntries {
     if (concept.code == "Text") {
       return new Texts(concept);
     }
+
+    throw EDNetException('Not registered concept code: ' + concept.code);
   }
 
-  ConceptEntity newEntity(String conceptCode) {
+  Entity newEntity(String conceptCode) {
     var concept = model.concepts.singleWhereCode(conceptCode);
     if (concept == null) {
-      throw new ConceptError("${conceptCode} concept does not exist.") ;
+      throw new EDNetException("${conceptCode} concept does not exist.");
     }
     if (concept.code == "City") {
       return new City(concept);
@@ -88,21 +89,26 @@ class AttributeEntries extends ModelEntries {
     if (concept.code == "Text") {
       return new Text(concept);
     }
+    throw EDNetException('Not registered concept code: ' + concept.code);
   }
 
   fromJsonToData() {
     fromJson(conceptAttributeDataJson);
   }
 
-  Cities get cities => getEntry("City");
+  Cities get cities => getEntry<Cities>("City");
+
   FirstNames get firstNames => getEntry("FirstName");
+
   LastNames get lastNames => getEntry("LastName");
+
   Emails get emails => getEntry("Email");
+
   Abouts get abouts => getEntry("About");
+
   Categories get categories => getEntry("Category");
+
   Descriptions get descriptions => getEntry("Description");
+
   Texts get texts => getEntry("Text");
-
 }
-
-

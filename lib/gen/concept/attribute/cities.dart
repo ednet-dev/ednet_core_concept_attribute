@@ -2,7 +2,7 @@ part of concept_attribute;
 
 // lib/gen/concept/attribute/cities.dart
 
-abstract class CityGen extends ConceptEntity<City> {
+abstract class CityGen extends Entity<City> {
 
   CityGen(Concept concept) {
     this.concept = concept;
