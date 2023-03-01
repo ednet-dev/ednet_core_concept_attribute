@@ -37,7 +37,7 @@ Next steps:
   git status
   git add .
   git commit -m 'initial model version'
-  git remote add origin https://github.com/dzenanr/concept_attribute.git
+  git remote add origin https://github.com/ednet-dev/concept_attribute.git
   git push -u origin master     
 
 -------------------------------------------------------------------------------
@@ -47,14 +47,14 @@ Git with Git Bash
 Clone a remote repository into a local repository.
 
 cd git/dart
-git clone https://github.com/dzenanr/concept_attribute.git
+git clone https://github.com/ednet-dev/concept_attribute.git
 cd concept_attribute
 
 Read+Write:
-https://github.com/dzenanr/concept_attribute.git
+https://github.com/ednet-dev/concept_attribute.git
 
 Read only:
-git://github.com/dzenanr/concept_attribute.git
+git://github.com/ednet-dev/concept_attribute.git
 
 Get the latest changes from the remote repository
 

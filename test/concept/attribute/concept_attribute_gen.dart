@@ -5,7 +5,7 @@ import 'package:ednet_core/ednet_core.dart';
 import 'package:concept_attribute/concept_attribute.dart';
 
 genCode() {
-  var repo = new Repository();
+  var repo = new CoreRepository();
   var conceptDomain = new Domain("Concept");
   Model conceptAttributeModel =
       fromJsonToModel(conceptAttributeModelJson, conceptDomain, "Attribute");

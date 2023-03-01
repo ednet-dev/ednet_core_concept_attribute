@@ -6,7 +6,7 @@ import 'package:ednet_core/ednet_core.dart';
 
 import 'package:concept_attribute/concept_attribute.dart';
 
-testConceptAttribute(Repository repo, String domainCode, String modelCode) {
+testConceptAttribute(CoreRepository repo, String domainCode, String modelCode) {
   var models;
   var session;
   var entries;

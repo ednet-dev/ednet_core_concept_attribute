@@ -1,6 +1,6 @@
 part of concept_attribute;
 
-// lib/gen/concept/models.dart
+// lib/gen/concept/i_domain_models.dart
 
 class ConceptModels extends DomainModels {
 
