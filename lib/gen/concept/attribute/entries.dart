@@ -1,6 +1,6 @@
 part of concept_attribute;
 
-// lib/gen/concept/attribute/entries.dart
+// lib/gen/concept/attribute/model_entries.dart
 
 class AttributeEntries extends ModelEntries {
   AttributeEntries(Model model) : super(model);
@@ -27,7 +27,7 @@ class AttributeEntries extends ModelEntries {
     return entries;
   }
 
-  Entities newEntities(String conceptCode) {
+  Entities? newEntities(String conceptCode) {
     var concept = model.concepts.singleWhereCode(conceptCode);
     if (concept == null) {
       throw new EDNetException("${conceptCode} concept does not exist.");
@@ -60,7 +60,7 @@ class AttributeEntries extends ModelEntries {
     throw EDNetException('Not registered concept code: ' + concept.code);
   }
 
-  Entity newEntity(String conceptCode) {
+  Entity? newEntity(String conceptCode) {
     var concept = model.concepts.singleWhereCode(conceptCode);
     if (concept == null) {
       throw new EDNetException("${conceptCode} concept does not exist.");
