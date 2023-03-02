@@ -66,7 +66,7 @@ _initFromEmailsInJson(entries) {
   }
 
   print('Number of emails: ${emails.length}');
-  //print(emails.errors.display('Errors in emails'));
+  //print(emails.exceptions..display('Errors in emails'));
 }
 
 _initFromPeopleInJson(var entries) {
@@ -89,10 +89,10 @@ _initFromPeopleInJson(var entries) {
   }
 
   print('Number of first names: ${firstNames.length}');
-  //print(firstNames.errors.display('Errors in first names'));
+  //print(firstNames.exceptions..display('Errors in first names'));
 
   print('Number of last names: ${lastNames.length}');
-  //print(lastNames.errors.display('Errors in last names'));
+  //print(lastNames.exceptions..display('Errors in last names'));
 }
 
 _initFromTextsInJson(entries) {
