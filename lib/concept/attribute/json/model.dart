@@ -12,11 +12,11 @@ part of concept_attribute;
 var conceptAttributeModelJson = r'''
 {
    "width":990,
-   "lines":[
+   "relations":[
 
    ],
    "height":580,
-   "boxes":[
+   "concepts":[
       {
          "name":"City",
          "x":49,
@@ -24,7 +24,7 @@ var conceptAttributeModelJson = r'''
          "y":94,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"name",
@@ -43,7 +43,7 @@ var conceptAttributeModelJson = r'''
          "y":95,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"firstName",
@@ -62,7 +62,7 @@ var conceptAttributeModelJson = r'''
          "y":92,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"lastName",
@@ -81,7 +81,7 @@ var conceptAttributeModelJson = r'''
          "y":192,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"email",
@@ -100,7 +100,7 @@ var conceptAttributeModelJson = r'''
          "y":190,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"about",
@@ -119,7 +119,7 @@ var conceptAttributeModelJson = r'''
          "y":189,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"category",
@@ -138,7 +138,7 @@ var conceptAttributeModelJson = r'''
          "y":292,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"description",
@@ -157,7 +157,7 @@ var conceptAttributeModelJson = r'''
          "y":291,
          "entry":true,
          "width":80,
-         "items":[
+         "attributes":[
             {
                "sequence":10,
                "name":"text",
